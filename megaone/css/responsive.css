@@ -1,0 +1,287 @@
+    @media (max-width:575px) {
+.header-section{
+    position: relative;
+    padding: 30px 20px;
+    overflow: hidden;
+}
+
+.middle-section{
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    text-align: right;
+   
+}
+.social-media-section{
+    display: none;
+} 
+.navbar{
+    display: none;
+}
+.hero-slider-section{
+   background-image:url(/images/asset\ 2.jpeg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+.hero-content{
+    position: relative;
+    left: 0;
+    top: 50%;
+    text-align: center;
+}
+.hero-content h2{
+    font-size: 40px;
+}
+.hero-content h2 span{
+    font-size: 40px;
+}
+.service-section{
+    width: 100%;
+    display: block;
+    padding: 20px;
+}
+.service-section .left-section h2{
+    font-size: 38px;
+}
+.service-section .right-section{
+    text-align: center;
+}
+.service-section .right-section .image-section img{
+    width: 100%;
+}
+.design-service-section{
+    padding: 0 10px;
+}
+.center-title h2{
+    font-size: 38px;
+}
+.design-box-section{
+    display: block;
+    text-align: center;
+}
+.box-1{
+    width: 95%;
+    margin-bottom: 50px;
+}
+.team-section{
+    padding: 110px 10px;
+}
+.team-title h2{
+    font-size: 38px;
+}
+.team-main-section{
+    display: block;
+}
+.team-1{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.team-1 .image-details{
+    order: 2;
+    width: 545px;
+
+
+}
+.team-1 .image-thumb {
+    order: 1;
+    width: 545px;
+    height: 545px;
+}
+.image-thumb img{
+    width: 555px;
+    height: 545px;
+}
+.image-details ul{
+    margin: 0 40%;
+}
+.work-section{
+    padding: 80px 10px;
+    height: 1400px;
+}
+.container{
+    padding: 0;
+}
+.work-title h2{
+    font-size: 38px;
+}
+
+.item-3, .item-6, .item-7, .item-8{
+    display: none;
+    margin: 0;
+}
+.counter-section{
+    height: 865px;
+    padding: 80px 10px;
+    display: block;
+    text-align: center;
+}
+.counter-section .left-section{
+    margin-bottom: 30px;
+    width: 555px;
+}
+.counter-section .left-section h2::before{
+    display: none;
+}
+
+.counter-section .right-section{
+    display: block;
+    text-align: center;
+}
+.counter{
+    width: 500px;
+    margin-bottom: 30px;
+}
+.testimonial-section{
+    padding: 80px 10px;
+}
+.testimonials{
+    display: block;
+}
+.plan-section{
+    padding: 110px 0;
+}
+.plan-title h2{
+    font-size: 38px;
+    text-align: center;
+}
+.best-plan-section{
+    display: block;
+}
+.plan-1{
+    margin-bottom: 30px;
+}
+.blog-section{
+    padding:110px 0;
+}
+.blog-1{
+    display: block;
+    text-align: center;
+}
+.blog-content-1{
+    margin: 0 0 20px 0;
+}
+.blog-content-1 h2{
+    font-size: 38px;
+}
+.blog-centent-1 p{
+    text-align: justify;
+}
+.blog-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.blog-content-2{
+    margin: 0;
+}
+.blog-content-2 h2{
+    font-size: 38px;
+}
+.contact-details{
+    text-align: center;
+}
+.contact-details h3{
+    font-size: 38px;
+}
+.footer-section{
+    padding: 110px 0;
+}
+form{
+    display: block;
+    width: 100%;
+}
+input{
+    width: 545px;
+}
+textarea{
+    width: 545px;
+}
+.footer-bottom{
+    padding: 0 0 110px 0;
+}
+.social-icon li{
+    margin: 0 25px;
+}
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+ .header-section{
+    position: relative;
+    padding: 30px 20px;
+    overflow: hidden;
+}
+.middle-section{
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    text-align: right;
+    
+}
+.social-media-section{
+    display: none;
+}
+.navbar{
+    display: none;
+}
+.hero-slider-section{
+   background-image:url(/images/asset\ 2.jpeg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+.hero-content{
+    position: relative;
+    left: 0;
+    top: 70%;
+    text-align: center;
+}
+.hero-content h2{
+    font-size: 40px;
+}
+.hero-content h2 span{
+    font-size: 40px;
+}
+.service-section{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0 0;
+}
+.left-section h2:before{
+    display: none;
+}
+.service-section .left-section{
+    margin: 0;
+}
+.service-section .left-section p{
+    margin: 0;
+}
+.service-section .left-section h2{
+    font-size: 38px;
+}
+.service-section .right-section{
+    text-align: center;
+    margin: 0 20px 90px;
+}
+.service-section .right-section .image-section img{
+    width: 100%;
+    height: auto;
+}    
+.design-service-section{
+    padding: 0;
+}
+.center-title h2{
+    font-size: 38px;
+}
+.design-box-section{
+    display: block;
+}
+.design-box-section .box-1{
+    width: 600px;
+    display: block;
+    margin: 0 15px;
+}
+
+}

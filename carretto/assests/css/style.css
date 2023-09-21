@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0   ;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+/* header start */
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: #272727;
+    padding:0 50px
+}
+.logo{
+    float: left;
+
+}
+.logo img{
+    width: 150px;
+    height: 80px;
+    padding: 15px 0;
+}
+.navbar ul{
+    float: right;
+}
+.navbar  li{
+    list-style: none;
+    float: left;
+    margin-left: 45px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.button a{
+    margin-right: 15px;
+    color: #fff;
+    
+}
+.book-button{
+    text-decoration: none;
+    padding: 15px 35px;
+    background-color: rgb(231, 187, 103);
+    font-weight: 600;
+}
+/* header end */
+
+/* hero slider start */
+.hero-slider{
+    position: relative;
+    max-width: 100%;
+    height: 700px;
+    background-position: bottom;
+    background-size: cover;
+}
+.hero-content{
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    width: 500px;
+    text-align: center;
+    color: #fff;
+}
+.hero-content img{
+    margin-bottom: 25px;
+}
+.hero-content h1{
+    font-size: 56px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+.hero-content p{
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.hero-content a{
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+/* hero-slider css end */
+
+/* facility section start */
+.facility-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    background-color: #3e3e3e;
+    padding: 80px;
+}
+.box-1{
+    width: 312px;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding:40px 20px;
+}
+.image-thumb{
+    width: 150px ;
+    height: 150px;
+    background-color: #222222;
+    text-align: center;
+    border-radius: 50%;
+    margin:0 auto 30px
+}
+.image-thumb img{
+    height: 150px;
+    width: 150px;
+}
+.box-1 h3{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.box-1 p{
+    margin: 0;
+    padding: 0 40px;
+    margin-bottom: 20px;
+}
+.box-1 a{
+    text-decoration: none;
+    color: #f87801;
+}
+/* facility section end */
+
+/* the coffee herald start */
+.coffee-herald-section{
+    max-width:100%;
+    padding:80px 50px;
+    background-size: cover;
+    background-position: left;
+}
+.content-title{
+    text-align: center;
+}
+.content-title h4{
+    margin: 0;
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Marcellus', serif;
+    margin-bottom: 25px;
+}
+.content-title img{
+    margin-bottom: 20px;
+}
+.herald-section{
+    display: flex;
+    padding :0 70px
+}
+.content-title p{
+    margin: 0;
+    margin-bottom: 30px;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    color: #262626
+}
+.card{
+    width: 350px;
+    height:auto;
+    margin-left: 20px;
+}
+.card .card-image{
+    width: 350px;
+    height: 300px;
+}
+.card .card-image img{
+    width: 350px;
+    height: 300px;
+}
+.card-content{
+    padding: 20px 0;
+}
+.card-content h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #262626;
+    font-family: 'Marcellus', serif;
+    margin-bottom: 25px;
+}
+.card-content p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #656565;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.card-content a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:600;
+    color: #262626;
+}
+/* the coffee herald end */
+/* the .coffee-logo start */
+.coffee-logo{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding:120px 0;
+    background-position: 50% 0;
+    text-align: center;
+}
+.logo-image img{
+    position: absolute;
+    top: 17%;
+    left:43% ;
+    margin: auto;
+}
+/* the .coffee-logo end */
+/* the menu-section start */
+.menu-section{
+    padding: 80px;
+    background-color: #3e3e3e;
+}
+.menu-title{
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.menu-bg-1{
+    position: absolute;
+    top: 0;
+    left: -12%;
+    height: 100%;
+}
+.menu-bg-2{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: -12%;
+}
+.menu-title h5{
+    font-family: 'Marcellus', serif;
+    color: #cc843c;
+    margin-bottom: 10px;
+}
+.menu-title h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.menu-title img{
+    margin-bottom: 45px;
+}
+.menu-list{
+    display: flex;
+    padding: 0 150px;
+}
+.left-menu{
+    width: 400px;
+    padding: 30px;
+}
+.right-menu{
+    width: 400px;
+    padding: 30px;
+}
+.heading{
+    position: relative;
+    left: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.heading h4{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.price{
+    position: absolute;
+    right: 0;
+    top: 12px;
+    color: #cc843c;
+}
+.price::before{
+    position: absolute;
+    content: "";
+    width: 110px;
+    height: 1px;
+    background-color: #cc843c;
+    bottom: 10px;
+    left: -120px;
+}
+
+.heading h6{
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+}
+.menu-title a{
+    text-decoration: none;
+    padding:15px 38px;
+    background-color: rgb(20, 20, 53);
+    border: 1px solid #cc843c;
+    font-size: 14px;
+    color: #fff;
+}
+/* the menu-section end */
+/* the counter-section-start */
+.counter-section{
+    display: flex;
+    background-color: #fff;
+    padding: 80px 110px;
+}
+.counter{
+    text-align: center;
+    padding: 0 30px;
+    margin-left: 15px;
+}
+.counter h2{
+    font-size: 55px;
+    font-family: 'Marcellus', serif;
+    letter-spacing: .05em;
+    color: #be9c79;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.counter h5{
+    font-size: 20px;
+    font-family: 'Marcellus', serif;
+    font-weight: 400;
+    color: #262626;
+    margin-bottom: 10px;
+}
+.counter p{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'open sans',serif;
+    color: #656565;
+}
+/* the menu-section end */
+/* the team-section start */
+.team-section{
+    background-color: #262626;
+    padding: 90px 110px;
+}
+.team-title{
+    text-align: center;
+}
+.team-title h5{
+    font-size: 15px;
+    font-family: 'Marcellus', serif;
+    font-weight: 600;
+    color: #be9c79;
+    margin-bottom: 10px;
+}
+.team-title h3{
+    font-size: 28px;
+    font-family: 'open sans', serif;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.team-title img{
+    margin-bottom: 80px;
+}
+.team-member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.member-1{
+    position: relative;
+}
+.member-1 img{
+    width: 300px;
+    margin: 0 15px;
+}
+.member-details{
+    position: absolute;
+    width: 75%;
+    bottom:-8%;
+    left: 13%;
+    background-color: #181818;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+.member-details h3{
+    color: #fff;
+    font-family: 'open sans',serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.member-details h5{
+    color:#be9c79;
+    font-family: 'Marcellus', serif;
+}
+/* the team-section end */
+/* the logo-section start */
+.logo-section{
+    max-width: 100%;
+    padding: 90px;
+}
+.logo-images{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.logos{
+    
+    position: relative;
+    width: 200px;
+    height: 80px;
+}
+.logo-1{
+    position: absolute;
+    width: auto;
+    height: auto;
+    opacity: 1;
+    transition: 0.5s;
+}
+.logo-1:hover{
+    opacity: 0;
+}
+.logos img{
+    width: 200px;
+    height: 80px;
+}
+/* the menu-section end */
+/* the reserve-section start */
+.reserve-section{
+    padding: 90px;
+    background-color: #222222;
+}
+.top-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.food-section{
+    width: 300px;
+    height: auto;
+    margin: 0 15px;
+    text-align: center;
+}
+.food-section img{
+    width: 300px;
+    height: auto;
+}
+.food-section h3{
+    font-size: 24px;
+    font-family: 'open sans', serif;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.food-section h5{
+    font-size: 15px;
+    font-family: 'Marcellus', serif;
+    font-weight: 600;
+    color: #be9c79;
+    margin-bottom: 10px;
+}
+.drink-section{
+    width: 300px;
+    height: auto;
+    margin: 110px 15px 0;
+    text-align: center;
+}
+.drink-section h3{
+    font-size: 24px;
+    font-family: 'open sans', serif;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.drink-section h5{
+    font-size: 15px;
+    font-family: 'Marcellus', serif;
+    font-weight: 600;
+    color: #be9c79;
+    margin-bottom: 10px;
+}
+.drink-section img{
+    width: 300px;
+    height: auto;
+}
+/* the reserve-section end */
+/* the form-section start */
+.bottom-section img{
+    height: 343px;
+    margin-right: 35px;
+}
+form{
+    background-color: #080808;
+    width: 200px;
+    height: auto;
+    padding: 25px;
+}
+input{
+    width: 200px;
+    height: 15px;
+    background-color: transparent;
+    color: #ffffff!important;
+    outline: none;
+    border: none;
+    margin-top: 25px;
+}
+hr{
+    color: #1f1f1f;
+    margin: 0; 
+}
+.dropdown-list{
+    width: 200px;
+    height: 20px;
+    background-color: transparent;
+    border:none;
+    color: #fff;
+    margin-top: 20px; 
+}
+option{
+    background-color: #181818;
+    color: #fff;
+}
+.form-heading{
+    color: #be9c79;
+    text-align: center;
+}
+form a{
+    display: inline-block;
+    padding: 10px 58px;
+    background-color: #be9c79;
+    color: #fff;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+.bottom-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.some-facts{
+    margin-left: 40px;
+}
+.facts{
+    float: left;
+    margin-right: 15px;
+}
+.some-facts h5{
+    font-size: 15px;
+    font-family: 'Marcellus', serif;
+    font-weight: 500;
+    color: #be9c79;
+    margin-bottom: 10px;
+}
+.some-facts h3{
+    font-size: 24px;
+    font-family: 'open sans', serif;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.some-facts img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.some-facts p{
+    font-size: 12px;
+    color: #a7a7a7;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.facts{
+    text-align: center;
+}
+.facts h2{
+    font-size: 34px;
+    font-family: 'open sans',sans-serif;
+    color: #be9c79;
+    font-weight: 400;
+}
+.facts h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+/* the form-section end */
+/* the footer section start */
+.footer-section{
+    background-color: #0a0909;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 80px 80px;
+}
+.footer-logo{
+    text-align: center;
+}
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts-section span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.contacts-section ul{
+    padding: 0;
+}
+.contacts-section li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.contacts-section a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+.contacts-section a i{
+    color: #be9c79;
+    margin-right: 15px;
+}
+.middle-section{
+    margin-top: 30px;
+    text-align: center;
+}
+.middle-section p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'marcellus',sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.middle-section ul{
+    padding: 0;
+    margin: 10px 140px;
+}
+.middle-section li{
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+.middle-section a i{
+    color: #fff;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 35px;
+}
+.working-hour-section{
+    text-align: right;
+}
+.working-hour-section span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.working-hour-section ul{
+    padding: 0;
+}
+.working-hour-section li{
+    list-style: none;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+.working-hour-section li span{
+    color: #be9c79;
+    font-size: 14px;
+}
+
+/* the footer section end */
